@@ -1,6 +1,6 @@
 # Notepad
 ### Web notes application with support for user registration.  
-##### Front-end 
+#### Front-end 
 - CSS
 - React
 - TypeScript
@@ -10,7 +10,7 @@
 - DevDependencies
   - Vite
   - TypeScript
-##### Back-end
+#### Back-end
 - JavaScript
 - Dependencies
   - ajv
