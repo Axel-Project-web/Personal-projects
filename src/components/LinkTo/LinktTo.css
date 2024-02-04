@@ -1,0 +1,60 @@
+.btn-goto {
+  width: 190px;
+  height: 190px;
+
+  border-radius: 10px;
+  border-top: thin solid #f8f7f7;
+  border-left: thin solid #f8f7f7;
+
+  background-color: transparent;
+
+  box-shadow: -3px -3px 15px 0px #ffffff, 3px 3px 15px 0px #bebdbd;
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+
+  position: relative;
+
+  text-decoration: none;
+
+  font-family: genos;
+  font-size: 24px;
+  color: #6b6b6b;
+
+  transition-duration: 0.1s;
+}
+
+.btn-goto:active {
+  box-shadow: 0px 0px 0px #ebebeb;
+  transform: translate(-1px, 1px);
+}
+
+.btn-goto::before {
+  content: attr(data-label);
+
+  width: 72px;
+  height: 20px;
+
+  position: absolute;
+  top: 0px;
+  right: 0px;
+
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+
+  font-family: genos;
+  font-size: 16px;
+
+  color: white;
+  background-color: #404040;
+
+  display: flex;
+  justify-content: center;
+}
+
+.icon-image {
+  width: 64px;
+  height: 64px;
+}

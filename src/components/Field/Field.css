@@ -1,0 +1,58 @@
+.custom-field-wrapper {
+  width: 100%;
+  height: auto;
+
+  display: block;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.input-description {
+  color: #6b6b6b;
+  font-size: 14px;
+  font-family: roboto;
+}
+
+.field-wrapper {
+  display: flex;
+  position: relative;
+}
+
+.custom-field {
+  width: 100%;
+  height: 35px;
+
+  border-radius: 5px;
+  border: thin solid #bebdbd;
+
+  background-color: transparent;
+
+  position: relative;
+  padding-left: 10px;
+}
+
+.error-msg-field {
+  color: #ff6961;
+}
+
+.image-field {
+  position: absolute;
+  right: 5px;
+  top: 5px;
+}
+
+.btn-view {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  position: absolute;
+  right: 5px;
+  top: 5px;
+
+  cursor: pointer;
+
+  background: none;
+  border: none;
+}

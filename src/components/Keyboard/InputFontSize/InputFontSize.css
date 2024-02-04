@@ -1,0 +1,60 @@
+.input-font-size-wrapper {
+  height: 30px;
+  position: relative;
+}
+.input-font-size-wrapper::before,
+.input-font-size-wrapper::after {
+  width: 20px;
+  height: 15px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  color: white;
+  background-color: #585858;
+
+  background-size: 16px;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  pointer-events: none;
+}
+.input-font-size-wrapper::before {
+  content: '';
+  position: absolute;
+  top: 0px;
+  right: 0px;
+
+  background-image: url(../assets/up-arrow.svg);
+
+  border-top-right-radius: 5px;
+}
+.input-font-size-wrapper::after {
+  content: '';
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+
+  background-image: url(../assets/down-arrow.svg);
+
+  border-bottom-right-radius: 5px;
+}
+.input-font-size {
+  width: 50px;
+  height: 30px;
+
+  text-align: center;
+
+  outline: none;
+
+  border-radius: 5px;
+  border: thin solid #bebdbd;
+
+  background-color: transparent;
+}
+.input-font-size::-webkit-inner-spin-button,
+.input-font-size::-webkit-outer-spin-button {
+  width: 30px;
+  height: 30px;
+}

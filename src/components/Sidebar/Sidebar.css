@@ -1,0 +1,162 @@
+.menu {
+  width: 210px;
+  height: 95vh;
+  min-height: 380px;
+
+  padding: 17px 30px;
+
+  border-radius: 10px;
+
+  box-shadow: -3px -3px 15px 0px white, 3px 3px 15px 0px #bebdbd;
+
+  flex-shrink: 0;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.menu-title {
+  font-size: 36px;
+  color: #494949;
+  font-weight: normal;
+  font-family: genos;
+}
+
+.list {
+  flex-grow: 1;
+  flex-shrink: 1;
+
+  overflow-y: auto;
+
+  margin: 23px 0px;
+  padding: 23px 0px;
+
+  border-top: thin solid #bebdbd;
+  border-bottom: thin solid #bebdbd;
+
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+
+  list-style: none;
+}
+
+.list::-webkit-scrollbar {
+  width: 5px;
+  background-color: #cecece;
+
+  border-radius: 5px;
+}
+.list::-webkit-scrollbar-thumb {
+  width: auto;
+  background-color: #adadad;
+
+  border-radius: 5px;
+}
+.list::-webkit-scrollbar-thumb:active {
+  background-color: #929191;
+}
+
+.msg-empty-list {
+  width: 100%;
+  flex-grow: 1;
+  flex-shrink: 0;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  color: #929191;
+  font-size: 22px;
+  font-weight: normal;
+}
+
+li {
+  width: 100%;
+  & > button {
+    width: 100%;
+    height: 40px;
+
+    cursor: pointer;
+
+    border: none;
+    border-radius: 10px;
+
+    font-size: 20px;
+    font-family: genos;
+    transition-duration: 0.3s; /* afecta los botones no seleccionados */
+  }
+  & > button[class='note-selected'] {
+    color: white;
+    background-color: #494949;
+  }
+  & > button[class='note-unselected'] {
+    color: #494949;
+    border: thin solid #bebdbd;
+    background-color: #ebebeb;
+  }
+  & > button[class='note-unselected']:hover {
+    background-color: #dadada;
+  }
+}
+
+.btn-create-note {
+  width: 100%;
+  height: 35px;
+
+  border: none;
+  border-radius: 10px;
+
+  cursor: pointer;
+
+  color: white;
+  font-size: 20px;
+  font-family: genos;
+  background-color: #494949;
+
+  flex-shrink: 0;
+}
+
+.btn-close-sidebar {
+  display: none;
+}
+
+@media screen and (width <= 710px) {
+  .hidden-sidebar {
+    position: absolute;
+    left: -120%;
+  }
+  .show-sidebar {
+    left: 0px;
+    right: 0px;
+    position: absolute;
+
+    width: 100%;
+    height: 100vh;
+
+    background-color: #ebebeb;
+
+    z-index: 1;
+  }
+  .btn-close-sidebar {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    border-bottom-left-radius: 10px;
+
+    width: 25px;
+    height: 25px;
+
+    color: white;
+    background-color: #494949;
+
+    border: none;
+
+    display: block;
+
+    background-size: 20px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(./assets/icon-close.svg);
+  }
+}

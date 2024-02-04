@@ -1,0 +1,30 @@
+.message-container {
+  left: 0px;
+  right: 0px;
+  bottom: -120%;
+  position: fixed;
+
+  display: flex;
+  justify-content: center;
+
+  transition-duration: 0.5s;
+}
+
+.message {
+  width: 100%;
+  max-width: 300px;
+
+  padding: 20px 0px;
+
+  color: white;
+  background-color: #494949;
+
+  text-align: center;
+
+  border-radius: 10px;
+  font-family: genos;
+}
+
+.show-message {
+  bottom: 10px;
+}

@@ -1,0 +1,38 @@
+.controller-btn {
+  width: 35px;
+  height: 35px;
+
+  background-color: #ebebeb;
+
+  border: none;
+  border-radius: 10px;
+  border-top: thin solid #f8f7f7;
+  border-left: thin solid #f8f7f7;
+
+  box-shadow: -3px -3px 15px 0px #ffffff, 3px 3px 15px 0px #bebdbd;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  cursor: pointer;
+
+  transition-duration: 0.1s;
+}
+
+.controller-btn:active {
+  box-shadow: 0px 0px 0px #ebebeb;
+  transform: translate(-1px, 1px);
+}
+
+.controller-btn-image {
+  width: 24px;
+  height: auto;
+}
+
+@media screen and (width <= 710px) {
+  .controller-btn {
+    width: 50px;
+    height: 50px;
+  }
+}

@@ -1,0 +1,37 @@
+.justify-keyboard {
+  gap: 10px;
+  display: flex;
+}
+.btn-justify {
+  width: 30px;
+  height: 30px;
+
+  border: none;
+  background-size: 24px;
+  background-color: transparent;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  border-radius: 5px;
+}
+.justify-left {
+  background-image: url(../assets/icon-justify-left-black.svg);
+}
+.justify-center {
+  background-image: url(../assets/icon-justify-center-black.svg);
+}
+.justify-right {
+  background-image: url(../assets/icon-justify-right-black.svg);
+}
+.justify-left-selected {
+  background-image: url(../assets/icon-justify-left-white.svg);
+  background-color: #585858;
+}
+.justify-center-selected {
+  background-image: url(../assets/icon-justify-center-white.svg);
+  background-color: #585858;
+}
+.justify-right-selected {
+  background-image: url(../assets/icon-justify-right-white.svg);
+  background-color: #585858;
+}

@@ -1,0 +1,77 @@
+.form-wrapper {
+  width: 100%;
+  max-width: 360px;
+  height: auto;
+
+  border-left: thin solid #f8f7f7;
+  border-top: thin solid #f8f7f7;
+
+  padding: 36px 36px 26px;
+
+  border-radius: 20px;
+  box-shadow: -3px -3px 15px 0px white, 3px 3px 15px 0px #bebdbd;
+
+  gap: 34px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.react-router-form {
+  width: 100%;
+
+  gap: 15px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.title-wrapper {
+  gap: 6px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.title-generic-form {
+  font-family: genos;
+  font-size: 48px;
+  font-weight: normal;
+  color: #494949;
+}
+
+.sub-title-generic-form {
+  color: #7c7c7c;
+  font-family: roboto;
+  font-weight: normal;
+}
+
+.navbar-generic-form {
+  gap: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.navbar-generic-form span {
+  color: #6b6b6b;
+  font-family: genos;
+  font-size: 18px;
+}
+
+.btn-goto-section {
+  width: 72px;
+  height: 30px;
+
+  font-size: 16px;
+  font-family: genos;
+  color: #494949;
+  border-radius: 5px;
+
+  border: thin solid #5b5b5b;
+
+  cursor: pointer;
+}
+.btn-goto-section:focus {
+  outline: 2px solid #5b5b5b;
+  outline-offset: 2px;
+}

@@ -1,0 +1,41 @@
+.input-font-family-wrapper {
+  position: relative;
+}
+.input-font-family-wrapper::before {
+  content: '';
+
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-image: url(../assets/down-arrow.svg);
+
+  width: 20px;
+  height: 30px;
+
+  background-color: #585858;
+
+  position: absolute;
+  right: 0px;
+
+  pointer-events: none;
+
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.input-font-family {
+  width: 120px;
+  height: 30px;
+
+  outline: none;
+  border: thin solid #bebdbd;
+  border-radius: 5px;
+
+  padding-left: 10px;
+
+  font-size: 14px;
+  font-family: roboto;
+
+  background-color: transparent;
+
+  color: #6b6b6b;
+}

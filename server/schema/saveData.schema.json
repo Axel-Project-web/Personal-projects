@@ -1,0 +1,40 @@
+{
+  "type": "object",
+  "properties": {
+    "email": {
+      "type": "string"
+    },
+    "id": {
+      "type": "string"
+    },
+    "notes": {
+      "type": "array",
+      "additionalItems": true,
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "fontSize": { "type": "number" },
+            "fontFamily": { "type": "string" },
+            "justify": { "type": "string" },
+            "color": { "type": "string" },
+            "title": { "type": "string" },
+            "text": { "type": "string" },
+            "isSelected": { "type": "boolean" }
+          },
+          "required": [
+            "fontSize",
+            "fontFamily",
+            "justify",
+            "color",
+            "title",
+            "text",
+            "isSelected"
+          ]
+        }
+      ]
+    }
+  },
+  "required": ["email", "id", "notes"],
+  "additionalProperties": false
+}

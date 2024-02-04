@@ -1,0 +1,11 @@
+.input-font-color {
+  width: 50px;
+  height: 30px;
+
+  border-radius: 5px;
+
+  border: thin solid #bebdbd;
+  outline: none;
+
+  padding: 0px 2px;
+}

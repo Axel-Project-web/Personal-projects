@@ -1,0 +1,77 @@
+.keyboard {
+  gap: 20px;
+  display: flex;
+
+  padding: 25px 20px;
+
+  background-color: #ebebeb;
+
+  border-radius: 10px;
+
+  border-left: thin solid #f8f7f7;
+  border-top: thin solid #f8f7f7;
+
+  box-shadow: -3px -3px 15px 0px #ffffff, 3px 3px 15px 0px #bebdbd;
+}
+
+/* Controlador maestro */
+
+.master-controller,
+.close-keyboard {
+  display: none;
+}
+
+@media screen and (width <= 900px) {
+  .keyboard {
+    gap: 10px;
+  }
+}
+
+@media screen and (width <= 710px) {
+  .master-controller {
+    gap: 10px;
+    display: flex;
+  }
+  .show-keyboard {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+
+    width: 100%;
+    height: 80px;
+
+    border: none;
+    box-shadow: none;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 0px 10px;
+  }
+  .close-keyboard {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    border-bottom-left-radius: 10px;
+
+    width: 25px;
+    height: 25px;
+
+    color: white;
+    background-color: #494949;
+
+    border: none;
+
+    display: block;
+
+    background-size: 20px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-image: url(./assets/icon-close.svg);
+  }
+  .hidden-keyboard {
+    display: none;
+  }
+}
