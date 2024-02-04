@@ -1,6 +1,6 @@
 # Notepad
 ### Web notes application with support for user registration.  
-To clone the repository, open the end of your code editor, go to the directory where you want to download the files and copy the following command:
+To clone the repository, open a terminal, go to the directory where you want to download the files and copy the following command:
 
   <pre>git clone https://github.com/Axel-Project-web/Notepad</pre>
 
@@ -8,7 +8,7 @@ After cloning the repository, you will need to install the necessary dependencie
 
   <pre>npm install</pre>
 
-
+### Technologies for application development.
 #### Front-end 
 - CSS
 - React
