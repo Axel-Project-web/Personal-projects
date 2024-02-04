@@ -1,1 +1,2 @@
-# Web notes application with support for user registration.  
+# Notepad
+## Web notes application with support for user registration.  
