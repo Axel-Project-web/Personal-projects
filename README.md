@@ -8,6 +8,12 @@ After cloning the repository, you will need to install the necessary dependencie
 
   <pre>npm install</pre>
 
+### Preparing the database
+1. The first step is to install docker to access the image that will build the database. Click on this [link](https://www.docker.com/get-started/) to go to the download page.
+2. Go to the repository containing the image. Click on this [link](https://hub.docker.com/r/axelweb/writeonme-image/tags)
+3. You can search for the image mentioned from the docker desktop application using the navigation bar, or you can start the docker application, open the terminal and add the following command:
+<pre>docker pull axelweb/writeonme-image:latest</pre>
+
 ### Technologies for application development.
 #### Front-end 
 - CSS
@@ -28,4 +34,5 @@ After cloning the repository, you will need to install the necessary dependencie
   - jose
   - mysql2
   - nodemon
-  - uuid  
+  - uuid
+  
