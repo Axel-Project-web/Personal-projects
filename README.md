@@ -13,7 +13,10 @@ After cloning the repository, you will need to install the necessary dependencie
 2. Go to the repository containing the image. Click on this [link](https://hub.docker.com/r/axelweb/writeonme-image/tags)
 3. You can search for the image mentioned from the docker desktop application using the navigation bar, or you can start the docker application, open the terminal and add the following command:
 <pre>docker pull axelweb/writeonme-image:latest</pre>
-
+That's all!
+### The steps to start the application are described below.
+1. From the terminal of your code editor, go to the server folder (cd server) and execute the command "npm start".
+2. 
 ### Technologies for application development.
 #### Front-end 
 - CSS
