@@ -15,8 +15,9 @@ After cloning the repository, you will need to install the necessary dependencie
 <pre>docker pull axelweb/writeonme-image:latest</pre>
 That's all!
 ### The steps to start the application are described below.
-1. From the terminal of your code editor, go to the server folder (cd server) and execute the command "npm start".
-2. 
+1. Start the docker engine and create an instance of the downloaded image. Remember to select port 3306.
+2. From the terminal of your code editor, go to the server folder (cd server) and execute the command "npm start".
+3. As a last step, go to the root folder of the project to start the application with vite and the command "npm run dev".
 ### Technologies for application development.
 #### Front-end 
 - CSS
