@@ -33,7 +33,7 @@ That's all!
 - JavaScript
 - Dependencies
   - ajv
-  - cors
+  - cors (dev)
   - express
   - jose
   - mysql2
